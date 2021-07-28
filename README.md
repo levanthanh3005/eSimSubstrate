@@ -18,6 +18,7 @@ docker run -it --rm \
 ```
 
 Then in this terminal, we start substrate canvas node
+
 Reference : https://substrate.dev/substrate-contracts-workshop/#/0/canvas-node
 
 ```
@@ -42,6 +43,7 @@ cargo +nightly contract build
 ```
 
 After that we have `esim.contract` in `target/ink/esim.contract`
+
 Access https://paritytech.github.io/canvas-ui/#/, let it connect to localhost, choose Upload and Instantitate Contract, and upload `esim.contract` here, do the next steps until the contract is already deployed into substrate.
 
 ## Frontend
